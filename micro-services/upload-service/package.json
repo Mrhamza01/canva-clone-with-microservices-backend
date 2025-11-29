@@ -2,6 +2,7 @@
   "name": "upload-service",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "src/server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,6 +15,8 @@
   "license": "ISC",
   "packageManager": "pnpm@10.23.0",
   "dependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
     "cloudinary": "^2.8.0",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
